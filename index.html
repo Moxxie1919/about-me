@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intitial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>About Moxxie</title>
+</head>
+
+<body style="background-color:#90ee90;">
+    <header style="background-color: #ffffff; text-align: center;">
+        <h1>Moxxie Gros</h1>
+
+    </header>
+    <ul>
+        <h3>My likes</h3>
+        <li>I like sweets</li>
+        <li>I like my pets</li>
+        <li>I like my friends</li>
+        <li>I like my family</li>
+        <li>I like summer</li>
+        <li>I like music</li>
+        <li>I like arctic hares</li>
+        <h3>More Info</h3>
+    </ul>
+    <section>
+        <section class="flex center">
+            <button id="image-back" onclick="imagesBack()">Bring Images Back</button>
+        </section>
+        <section class="flex space">
+            <img src="./images/bunbun.jpeg" id="hare" onclick="hideObject('hare')">
+            <img src="./images/choco.jpg" id="chocolate" onclick="hideObject('chocolate')">
+            <img src="./images/puppet.jpeg" id="puppet" onclick="voiceline('puppet')">
+            <img src="./images/funtime freddy.jpeg" id="freddy" onclick="voiceline('freddy')">
+            <img src="./images/moon.jpeg" id="moon" onclick="voiceline('moon')">
+        </section>
+        <!-- THIS IS WHAT SHOWS UP -->
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
